@@ -1,0 +1,17 @@
+{
+    "custom/wallpaper-changer": {
+    "format": "<span font='16'>󰋩</span>",
+    "tooltip-format": "Change Wallpaper",
+    "on-click": "waypaper"
+  },
+  "custom/vscode": {
+    "format": "<span font='16'>󰘐</span>",
+    "tooltip-format": "Visual Studio Code",
+    "on-click": "code"
+  },
+  "custom/android-studio": {
+    "format": "<span font='16'></span>",
+    "tooltip-format": "Android Studio",
+    "on-click": "/usr/local/android-studio/bin/studio"
+  }
+}

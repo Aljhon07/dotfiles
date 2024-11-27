@@ -1,0 +1,27 @@
+@define-color text #ebfafa;
+@define-color text1 #212337; 
+@define-color base #212337; 
+@define-color base2 #323449; 
+@define-color base3 #004D40; 
+@define-color primary #37f499;
+@define-color secondary #04d1f9;
+@define-color tertiary #87CEEB;
+
+/* Gradients */
+@define-color start  #37f499;
+@define-color middle  #04d1f9;
+@define-color end      #87CEEB; 
+
+/* Stationary */
+@define-color cyan   #04d1f9; 
+@define-color blue   #04d1f9; 
+@define-color purple #7081d0;
+@define-color green  #37f499;
+@define-color orange #f7c67f; 
+@define-color pink #f265b5; 
+@define-color red #f16c75;
+@define-color mauve #a48cf2;
+@define-color yellow #f1fc79; 
+@define-color sky #87CEEB; 
+@define-color sapphire #1E88E5; 
+@define-color magenta #D5006D;

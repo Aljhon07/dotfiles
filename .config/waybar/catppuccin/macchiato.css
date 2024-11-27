@@ -1,0 +1,26 @@
+@define-color rosewater #f5c2e7;       /* Light Pink */
+@define-color flamingo #f2a2a1;        /* Coral */
+@define-color pink #ff79c6;            /* Vivid Pink */
+@define-color mauve #c678dd;           /* Purple */
+@define-color red #ff5c8f;             /* Bright Red */
+@define-color maroon #b45bcf;          /* Soft Maroon */
+@define-color peach #ffb86c;           /* Peach */
+@define-color yellow #f1fa8c;          /* Soft Yellow */
+@define-color green #50fa7b;           /* Bright Green */
+@define-color teal #8be9fd;            /* Light Teal */
+@define-color sky #b2fef7;             /* Sky Blue */
+@define-color sapphire #6272a4;        /* Sapphire Blue */
+@define-color blue #bd93f9;            /* Soft Blue */
+@define-color lavender #ff79c6;        /* Lavender */
+@define-color text #ffffff;            /* White */
+@define-color subtext1 #d6d6d6;        /* Light Gray */
+@define-color subtext0 #b1b1b1;        /* Dimmed Text */
+@define-color overlay2 #4e4e4e;        /* Overlay 2 */
+@define-color overlay1 #3b3b3b;        /* Overlay 1 */
+@define-color overlay0 #2a2a2a;        /* Overlay 0 */
+@define-color surface2 #353545;        /* Lighter Surface 2 */
+@define-color surface1 #2a2e38;        /* Lighter Surface 1 */
+@define-color surface0 #22242d;        /* Lighter Surface 0 */
+@define-color base #2a2a3c;            /* Lighter Base Background */
+@define-color mantle #24232e;          /* Lighter Mantle */
+@define-color crust #1a1a1e;           /* Lighter Crust */

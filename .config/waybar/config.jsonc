@@ -1,0 +1,47 @@
+[
+  {
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "reload_style_on_change": true,
+    "height": 30, // Waybar height (to be removed for auto height)
+    "margin": "3",
+    // "width": 1280, // Waybar width
+    "spacing": 6, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "include": [
+      "$HOME/.config/waybar/GroupModules.jsonc",
+      "$HOME/.config/waybar/Modules.jsonc",
+      "$HOME/.config/waybar/CustomModules.jsonc",
+      "$HOME/.config/waybar/custom-modules/app-shortcuts.jsonc",
+      "$HOME/.config/waybar/custom-modules/folder-shortcuts.jsonc"
+    ],
+    "modules-left": ["custom/arch-update", "hyprland/workspaces#hiragana", "hyprland/window"],
+    "modules-center": ["clock"],
+
+    "modules-right": ["network", "group/hardware", "group/power-management", "custom/notification"]
+  },
+  {
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "margin": "3",
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "include": [
+      "$HOME/.config/waybar/GroupModules.jsonc",
+      "$HOME/.config/waybar/Modules.jsonc",
+      "$HOME/.config/waybar/CustomModules.jsonc",
+       "$HOME/.config/waybar/custom-modules/app-shortcuts.jsonc",
+      "$HOME/.config/waybar/custom-modules/folder-shortcuts.jsonc"
+    ],
+    "modules-left": ["group/applications", "group/utilities", "group/folder-shortcuts"],
+    "modules-center": [""],
+
+    "modules-right": [
+      "group/keyboard",
+      "group/audio-light",
+      "tray"
+    ]
+  }
+]

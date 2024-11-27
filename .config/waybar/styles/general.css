@@ -1,0 +1,75 @@
+/* Individual Modules */
+#custom-arch-update,
+#workspaces,
+#window,
+#clock,
+#network,
+#temperature,
+#cpu,
+#memory,
+#power-profiles-daemon,
+#battery,
+#custom-notification,
+
+#custom-vscode,
+#custom-android-studio,
+#custom-color-picker,
+#custom-wallpaper-changer,
+#custom-file-manager,
+
+#language,
+#keyboard-state,
+#backlight,
+#pulseaudio,
+#tray
+{
+	border-radius: 6px;
+	padding: 3px 8px;
+	color: @text;
+}
+
+/* Groups Border Radius */
+#hardware,
+#power-management,
+#applications,
+#utilities,
+#folder-shortcuts,
+#keyboard,
+#audio-light
+{
+	border-radius: 6px;
+}
+/* Group Modules */
+#custom-arch-update,
+#workspaces,
+#window,
+#clock,
+#network,
+
+#hardware,
+#power-management,
+#custom-notification,
+
+#applications,
+#utilities,
+#folder-shortcuts,
+#keyboard,
+#audio-light,
+#tray
+{
+	background-color: @base2;
+}
+
+
+/* #custom-power, 
+#custom-arch-update, 
+#window, 
+#clock, 
+#network, 
+#hardware, 
+#custom-notification 
+{
+	padding-right:  10px;
+	padding-left: 10px;
+	border-radius: 5px;
+} */

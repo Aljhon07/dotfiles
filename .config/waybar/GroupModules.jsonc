@@ -1,0 +1,44 @@
+{
+  "group/hardware": {
+    "orientation": "inherit",
+    
+    "modules": ["temperature", "cpu", "memory"]
+  },
+  "group/power-management": {
+    "orientation": "inherit",
+    "modules": ["power-profiles-daemon", "battery"]
+  },
+  "group/applications": {
+    "orientation": "inherit",
+    "modules": ["custom/vscode", "custom/android-studio"]
+  },
+  // "group/brightness-controller": {
+  //   "orientation": "inherit",
+  //   "modules": ["backlight", "backlight/slider"]
+  // },
+  // "group/audio-controller": {
+  //   "orientation": "inherit",
+  //   "modules": ["pulseaudio", "pulseaudio/slider"]
+  // },
+  "group/audio-light": {
+    "orientation": "inherit",
+    "modules": ["backlight", "pulseaudio"]
+  },
+  "group/utilities": {
+    "orientation": "inherit",
+    "modules": ["custom/color-picker", "custom/wallpaper-changer"]
+  },
+  "group/keyboard": {
+    "orientation": "inherit",
+    "modules": ["hyprland/language", "keyboard-state"]
+  },
+  "group/folder-shortcuts": {
+    "drawer": {
+      "transition-duration": 250,
+      "children-class": "not-power",
+      "transition-right-to-left": false
+  },
+    "orientation": "inherit",
+    "modules": ["custom/file-manager", "custom/folder-downloads", "custom/folder-config","custom/folder-documents","custom/folder-videos","custom/folder-documents"]
+  }
+}

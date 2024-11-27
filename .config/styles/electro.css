@@ -1,0 +1,25 @@
+@define-color text       #e0e0e0; /* Light Gray */
+@define-color base       #1e1e2f; /* Dark Background */
+@define-color base2      #2b2b3c; /* Slightly Lighter Background */
+@define-color base3      #3c3c4f; /* Light Background */
+@define-color primary     #a03ee0; /* Vibrant Neon Purple */
+@define-color secondary   #5d00b9; /* Deep Violet */
+@define-color tertiary    #ffea00; /* Bright Neon Yellow */
+
+/* Alternate Gradient Colors */
+@define-color start      #a03ee0; /* Vibrant Neon Purple */
+@define-color middle     #8e44ad; /* Bright Violet */
+@define-color end        #5d00b9; /* Deep Violet */
+
+/* Stationary */
+@define-color cyan       #00ffff; /* Neon Cyan */
+@define-color blue       #1e90ff; /* Neon Blue */
+@define-color purple     #9400d3; /* Vibrant Purple */
+@define-color green      #39ff14; /* Neon Green */
+@define-color orange     #ff4500; /* Neon Orange */
+@define-color red        #ff0000; /* Bright Red */
+@define-color mauve      #d5006d; /* Neon Mauve */
+@define-color yellow      #ffff00; /* Bright Yellow */
+@define-color sky        #00bfff; /* Deep Sky Blue */
+@define-color sapphire    #0066cc; /* Bright Sapphire Blue */
+@define-color magenta     #ff00ff; /* Bright Magenta */

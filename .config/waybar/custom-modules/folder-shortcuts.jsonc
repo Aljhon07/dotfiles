@@ -1,0 +1,27 @@
+{
+    "custom/file-manager": {
+    "format": "<span font='14'></span>",
+    "on-click": "thunar Documents"
+  },
+  "custom/folder-documents": {
+    "format": "<span font='14'>󱧶</span>",
+    "on-click": "thunar Documents",
+    "tooltip-format": "Documents"
+  },
+  "custom/folder-pictures": {
+    "format": "<span font='14'>󰉏</span>",
+    "on-click": "thunar Pictures"
+  },
+  "custom/folder-downloads": {
+    "format": "<span font='14'>󰉍</span>",
+    "on-click": "thunar Downloads"
+  },
+  "custom/folder-videos": {
+    "format": "<span font='14'>󱧺</span>",
+    "on-click": "thunar Videos"
+  },
+  "custom/folder-config": {
+    "format": "<span font='14'></span>",
+    "on-click": "thunar .config"
+  }
+}

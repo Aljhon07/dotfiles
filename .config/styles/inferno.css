@@ -1,0 +1,27 @@
+@define-color text       #ffffff; /* Bright White */
+@define-color text1       #1c1c1c; /* Bright White */
+@define-color base       #1c1c1c; /* Dark Background */
+@define-color base2      #2e2e2e; /* Slightly Lighter Background */
+@define-color base3      #3f3f3f; /* Light Background */
+@define-color primary     #ff4500; /* Bright Orange-Red */
+@define-color secondary   #ff6f20; /* Vivid Flame Orange */
+@define-color tertiary    #ffd700; /* Bright Gold */
+
+/* Gradients */
+@define-color start      #ff4500; /* Bright Orange-Red */
+@define-color middle     #ff6347; /* Tomato Red */
+@define-color end        #ffd700; /* Bright Gold */
+
+/* Stationary */
+@define-color cyan       #00ffff; /* Vibrant Cyan */
+@define-color blue       #00bfff; /* Bright Deep Sky Blue */
+@define-color purple     #9b59b6; /* Vivid Purple */
+@define-color green      #2ecc71; /* Bright Green */
+@define-color orange     #ff8c00; /* Dark Orange */
+@define-color pink       #ff69b4; /* Hot Pink */
+@define-color red        #ff0000; /* Pure Red */
+@define-color mauve      #d78f8f; /* Soft Coral */
+@define-color yellow      #ffff00; /* Bright Yellow */
+@define-color sky        #ff7f50; /* Coral */
+@define-color sapphire    #1e90ff; /* Bright Sapphire Blue */
+@define-color magenta     #ff00ff; /* Bright Magenta */

@@ -1,0 +1,186 @@
+{
+  "hyprland/workspaces#hiragana": {
+    "disable-scroll": true,
+    "show-special": false,
+    "all-outputs": true,
+    "format": "<span font='10' weight='bold' rise='6000'>{icon}</span>",
+    "persistent-workspaces": {
+      "*": 5
+    },
+    "format-icons": {
+      "1": "いち",
+      "2": "に",
+      "3": "さん",
+      "4": "し",
+      "5": "ご",
+      "6": "ろく",
+      "7": "しち",
+      "8": "はち",
+      "9": "きゅう",
+      "10": "じゅう"
+    }
+  },
+  "hyprland/window": {
+    "format": "{initialTitle}",
+    "max-length": 50,
+    "tooltip": "Current Window"
+  },
+
+  "keyboard-state": {
+    "capslock": true,
+    "format": {
+      "numlock": "N {icon}",
+      "capslock": "Caps {icon}"
+    },
+    "format-icons": {
+      "locked": "",
+      "unlocked": ""
+    }
+  },
+
+"hyprland/language": {
+  "format": "{short} <span font='15' rise='-3000'>󰌌</span>"
+},
+  "mpd": {
+    "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+    "format-disconnected": "Disconnected ",
+    "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+    "unknown-tag": "N/A",
+    "interval": 5,
+    "consume-icons": {
+      "on": " "
+    },
+    "random-icons": {
+      "off": "<span color=\"#f53c3c\"></span> ",
+      "on": " "
+    },
+    "repeat-icons": {
+      "on": " "
+    },
+    "single-icons": {
+      "on": "1 "
+    },
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    }
+  },
+  "tray": {
+    "icon-size": 21,
+    "show-passive-items": true,
+    "spacing": 10
+  },
+  "clock": {
+    "format": "{0:%I:%M %p} - {0:%A, %B %d}"
+  },
+  "cpu": {
+    "format": "| <span font='12' rise='-400'></span> {usage}% |"
+    // "format-icons": [
+    //   "<span font='12' rise='-400' color='#69ff94'></span>",
+    //   "<span font='12' rise='-400' color='#2aa9ff'></span>",
+    //   "<span font='12' rise='-400' color='#2aa9ff'></span>",
+    //   "<span font='12' rise='-400' color='#ffffa5'></span>",
+    //   "<span font='12' rise='-400' color='#ffffa5'></span>",
+    //   "<span font='12' rise='-400' color='#ffffa5'></span>",
+    //   "<span font='12' rise='-400' color='#ff9977'></span>",
+    //   "<span font='12' rise='-400' color='#dd532e'></span>"
+    // ]
+  },
+  "memory": {
+    "format": "<span font='14' rise='-1500'>󰍜</span> {percentage}%",
+    "tooltip": true,
+    "tooltip-format": "Memory: {used:0.1f}GiB / {total:0.1f}GiB \nSwap: {swapUsed:0.1f}GiB / {swapTotal:0.1f}GiB"
+  },
+  "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C {icon}",
+    "format": "<span font='16' rise='-1500' color='#dd532e'>󰈸</span> {temperatureC}°C",
+    // "format-icons": [
+    //   "<span font='14' rise='-1500' color='#2aa9ff'>󰜗</span>",
+    //   "<span font='12' rise='-1500' color='#dd532e'>󰈸</span>"
+    // ]
+  },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "<span font='13' rise='-1000'>{icon}</span> {percent}%",
+    "format-icons": ["󰃚", "󰃛", "󰃜", "󰃝", "󰃞", "󰃟", "󰃠"],
+    "on-click": "swaync-client -t -sw"
+  },
+  "backlight/slider": {
+    "min": 10,
+    "max": 100,
+    "orientation": "horizontal",
+    "device": "intel_backlight"
+  },
+  "battery": {
+    "states": {
+      //   "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "<span size='large'>{icon}</span> {capacity}%",
+    "format-full": "<span size='large'>{icon}</span> {capacity}%",
+    "format-charging": "<span font='16' rise='-2500'>󱐋</span> {capacity}%",
+    "format-plugged": "<span size='large'>{icon}</span> {capacity}%",
+    "format-alt": "{time} {icon}",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+  },
+  "battery#bat2": {
+    "bat": "BAT2"
+  },
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "<span color=\"#F5EBD9\"></span>",
+      "performance": "<span color=\"#F28FAD\"></span>",
+      "balanced": "<span color=\"#CBA6F7\"></span>",
+      "power-saver": "<span color=\"#B9FBC0\"></span>"
+    }
+  },
+  "network": {
+    // "interface": "/proc/net/dev", // (Optional) To force the use of this interface
+    "format-wifi": "<span font='12'>󰤨</span> {essid} - {signalStrength}%",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span font='12'>󰤭</span>",
+    "format-alt": "{ipaddr}/{cidr}"
+  },
+  "pulseaudio": {
+    "scroll-step": 1, // %, can be a float
+    "format": "<span font='10'>{icon}</span> {volume}%",
+    "format-bluetooth": "<span font='12'>{icon}</span> {volume}%",
+    "format-bluetooth-muted": "<span font='12' rise='-1500'></span> {volume}%",
+    "format-muted": "<span font='12' rise='-1000'></span> {volume}%",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "󰋏",
+      "headset": "",
+      "phone": "",
+      "portable": "󰋏",
+      "car": "",
+      "default": ["", "", "", "", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+  }
+}

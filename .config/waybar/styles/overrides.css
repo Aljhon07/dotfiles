@@ -1,0 +1,50 @@
+#custom-arch-update, #custom-notification {
+	background-color: @primary;
+	color: @text1;
+}
+
+#clock {
+	background: linear-gradient(45deg, @start, @middle, @end);
+	color: @text1;
+}
+
+#temperature {
+	color: @primary;
+}
+#cpu {
+	color: @secondary;
+}
+#memory {
+	color: @tertiary;
+}
+
+/* Bottom Bar */
+#custom-vscode {
+	color: @cyan;
+}
+#custom-android-studio {
+	color: @green;
+}
+#keyboard {
+	background-color: @primary;
+}
+#keyboard-state {
+	color: @text1;
+}
+#language {
+	color: @text1;
+}
+
+#audio-light {
+	background-color: @primary;
+}
+#pulseaudio {
+	color: @text1;
+}
+#backlight {
+	color: @text1;
+}
+
+#tray {
+	border: solid @primary 2px;
+}
